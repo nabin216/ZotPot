@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Zotpot",
+    "slug": "zotpot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zotpot.shop",
+      "config": {
+        "googleMapsApiKey": "YOUR_IOS_GOOGLE_MAPS_API_KEY"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zotpot.shop",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDrPt2dk9H4vhC9ko7iEIwn5Mg6vtRsHN8"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Zotpot to use your location for order tracking and delivery."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4ac7f662-7956-4cc0-86ca-a72e3ecf4300"
+      },
+      "firebase": {
+        "apiKey": "AIzaSyDrPt2dk9H4vhC9ko7iEIwn5Mg6vtRsHN8",
+        "projectId": "zotpot-ffa75",
+        "storageBucket": "zotpot-ffa75.firebasestorage.app",
+        "mobileSdkAppId": "1:971528609362:android:eb3f3b0dc068b7db10098b"
+      }
+    }
+  }
+} 

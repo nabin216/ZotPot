@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971528609362",
+    "project_id": "zotpot-ffa75",
+    "storage_bucket": "zotpot-ffa75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971528609362:android:eb3f3b0dc068b7db10098b",
+        "android_client_info": {
+          "package_name": "com.zotpot.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrPt2dk9H4vhC9ko7iEIwn5Mg6vtRsHN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+} 
