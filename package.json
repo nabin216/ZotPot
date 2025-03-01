@@ -1,10 +1,19 @@
 {
   "devDependencies": {
     "@babel/plugin-transform-class-properties": "^7.25.9",
-    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "@firebase/firestore-types": "^3.0.3",
+    "@types/firebase": "^2.4.32",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.1.2",
-    "expo-secure-store": "^14.0.1"
+    "expo": "^52.0.37",
+    "expo-secure-store": "^14.0.1",
+    "metro": "^0.81.2",
+    "metro-core": "^0.81.2",
+    "react-native": "^0.78.0",
+    "react-native-image-picker": "^8.2.0"
   }
 }

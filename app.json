@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ZotPot",
+    "slug": "zotpot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow ZotPot to access your photos to update your profile picture",
+        "NSCameraUsageDescription": "Allow ZotPot to access your camera to take profile pictures"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.zotpot.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+} 
